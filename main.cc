@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int g(){
-    printf("function g");
+int h(){
+    printf("function h");
 }
 
-int  f(int i){
-    int j =2;
+int  g(int i){
+    int j =4;
     printf("%d\n", i+j);
     return (i+j);
 }
